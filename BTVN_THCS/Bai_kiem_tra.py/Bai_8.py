@@ -1,4 +1,4 @@
-#Bài7
+#Bài8
 
 n = int(input("Nhập vào một số nguyên dương n: "))
 print(f"Các số hoàn hảo nhỏ hơn {n} là:", end=" ")
