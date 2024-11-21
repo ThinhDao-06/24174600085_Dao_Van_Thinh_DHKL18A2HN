@@ -1,18 +1,9 @@
-# Nhập chuỗi từ người dùng
-chuoi_nhap = input("Nhap vao chuoi ky tu: ")
-
-chu_so = 0
-chu_cai = 0
-ky_tu_dac_biet = 0
-
-for chu in chuoi_nhap:
-    if chu.isdigit():# isdigit kiểm tra chuỗi có phải toàn bộ là số không
-        chu_so =chu_so + 1
-    elif chu.isalpha():#isalpha kiểm tta chuỗi có phải lf chữ cái không
-        chu_cai =  chu_cai + 1
-    else:
-        ky_tu_dac_biet =ky_tu_dac_biet + 1
-
-print(f"So ky tu la chu: {chu_cai}")
-print(f"So ky tu la so: {chu_so}")
-print(f"So ky tu dac biet: {ky_tu_dac_biet}")
+viet_hoa=0
+viet_thuong=0
+for chu in "chuoi_nhap":
+    if chu.isupper():# isupper kiểm tra chữ hoa
+       viet_hoa=viet_hoa+1
+    elif chu.islower():#islower kiểm tra chữ cái in thường
+        viet_thuong=viet_thuong+1
+print(f"chu cai in hoa: {viet_hoa}")  
+print(f"chu cai in thuong: {viet_thuong}") 
