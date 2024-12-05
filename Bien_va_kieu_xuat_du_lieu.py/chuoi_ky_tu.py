@@ -1,2 +1,0 @@
-chuoi_ky_tu = input("Yeu cau nhap chuoi ky tu: ")
-print("chuoi_ky_tu")
